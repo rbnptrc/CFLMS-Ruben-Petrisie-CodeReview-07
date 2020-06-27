@@ -1,0 +1,10 @@
+.nav-link {
+    font-size: larger;
+    color: rgb(13, 39, 77);
+}
+
+.navbar-brand {
+    color: turquoise;
+    background: rgb(13, 39, 77);
+    width: 8rem;
+}

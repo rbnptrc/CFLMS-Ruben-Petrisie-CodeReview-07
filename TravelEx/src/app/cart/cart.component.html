@@ -1,0 +1,52 @@
+<h3>The Cart</h3>
+
+
+
+<div class="container" *ngFor="let item of offers">
+    <div class="row">
+        <div class="card-deck">
+            <div class="card">
+                <h4 class="card-title">You have chosen {{ item.destName }} </h4>
+                <img class="card-img-top" src="{{ item.image }}" alt="Card image cap">
+                <div class="card-block">
+                    <p class="card-text">The price is {{ item.price }}</p>
+                    <p> Your New Total Costs is {{ offersTotal }} </p>
+                    <p class="card-text"><small class="text-muted">You have received a total discount of
+                            {{ totDiscount*100 }}%</small></p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<hr>
+
+<form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
+
+    <div>
+        <label for="name">
+            Name
+        </label>
+        <input id="name" type="text" formControlName="name">
+    </div>
+
+    <div>
+        <label for="address">
+            Address
+        </label>
+        <input id="address" type="text" formControlName="address">
+    </div>
+
+    <div>
+        <label for="email">
+            Email
+        </label>
+        <input id="email" type="text" formControlName="email">
+    </div>
+
+    <button class="button" type="submit">Purchase</button>
+
+</form>

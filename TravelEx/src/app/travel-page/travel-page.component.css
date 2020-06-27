@@ -1,0 +1,35 @@
+#top-content h2 {
+    text-align: center;
+}
+
+#top-content p {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    margin-bottom: 2rem !important;
+}
+
+h2 {
+    text-align: left;
+    margin: 4rem 0;
+}
+
+p {
+    text-align: left;
+}
+
+.container {
+    margin: 5rem auto;
+}
+
+.text-muted {
+    font-weight: bold;
+}
+
+.card-title {
+    color: teal;
+}

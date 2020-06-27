@@ -1,0 +1,21 @@
+<nav class="container navbar navbar-expand-md navbar-light fixed-top">
+    <a class="navbar-brand" routerLink="/">{{projectName}}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+        <ul class="nav justify-content-end">
+            <li class="nav-item active">
+                <a class="nav-link" routerLink="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/blog-page">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/travel-page">Travel</a>
+            </li>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" routerLink="/cart">Checkout</button>
+        </ul>
+    </div>
+</nav>

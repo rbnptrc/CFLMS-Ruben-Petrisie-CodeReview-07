@@ -1,0 +1,22 @@
+h3 {
+    text-align: center;
+}
+
+.card-img-top {
+    width: 50%;
+    height: auto;
+}
+
+form {
+    width: 50vw;
+    margin: 5rem auto;
+}
+
+input {
+    width: 400px;
+}
+
+.button {
+    margin: 2px auto;
+    background-color: tomato;
+}

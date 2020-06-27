@@ -1,0 +1,46 @@
+.jumbotron {
+    /*background: url('/assets/img/bahamas_cover.jpg') no-repeat center center;*/
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.8;
+    color: seashell;
+}
+
+.jumbotron.home {
+    background: url('/assets/img/bahamas_cover.jpg') no-repeat center center;
+}
+
+.jumbotron.blog {
+    background: url('/assets/img/bahamasbeach2.jpg') no-repeat center center;
+}
+
+.jumbotron.travel {
+    background: url('/assets/img/bonaire2.jpg') no-repeat center center;
+}
+
+.container {
+    border: 1px solid white;
+    background-color: rgba(30, 81, 116, 0.5);
+    width: 50%;
+    float: left;
+    margin-left: 10rem;
+    margin-top: 10rem;
+}
+
+p {
+    display: block;
+    width: 500px;
+}
+
+h3 {
+    margin-top: 5rem;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn {
+    margin-top: 1rem;
+}

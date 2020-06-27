@@ -1,0 +1,54 @@
+<div id="top-content">
+
+    <h2>Discover our Travel Offers</h2>
+    <p>proffit from our discounts</p>
+    <p>spent over 200€ = 10% off and over500€ = 20% off</p>
+</div>
+
+
+<div class="container d-flex flex-wrap justify-content-between">
+
+    <div class="card-deck col-lg-4 mb-6" *ngFor="let item of offers">
+        <div class="card">
+            <h3>{{ item.destName }}</h3>
+            <img class="card-img-top" src="{{item.image}}" alt="Card image cap">
+            <div class="card-block">
+                <h5 class="card-title">{{ item.dates }}</h5>
+                <p class="card-text">{{ item.description }}</p>
+                <p class="card-text"><small class="text-muted">Price Offer = {{ item.price }}Euros</small></p>
+                <button (click)="addToCart(item)" type="button" class="btn btn-info">{{ item.book }}</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--   
+
+            <div *ngFor="let item of offers">
+            
+            
+               
+                <div class="container">
+                    <div class="card">
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                            <h3>
+                                {{ item.destName }}
+                            </h3>
+                            <img class="card-img-top" src="{{item.image}}">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.dates }}</h5>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">{{ item.price }}</small>
+                                <button (click)="addToCart(item)" type="button" class="btn btn-info">{{ item.book }}</button>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+
+
+        -->

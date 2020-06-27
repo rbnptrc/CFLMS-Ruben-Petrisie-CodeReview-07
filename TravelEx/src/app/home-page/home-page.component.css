@@ -1,0 +1,14 @@
+.card {
+    width: 18rem;
+    margin: 0 auto;
+}
+
+.card img {
+    height: 100%;
+    margin-left: 5rem;
+}
+
+.container {
+    height: 80vh;
+    margin-top: 8rem;
+}
