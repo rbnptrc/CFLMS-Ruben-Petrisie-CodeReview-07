@@ -31,7 +31,7 @@ export class CartService {
   }
 
 
-  //set total of offers
+  //set total price of offer(s)
   
   setTotl () {
     let totl : number = 0;

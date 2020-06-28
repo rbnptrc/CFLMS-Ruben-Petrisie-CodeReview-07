@@ -3,7 +3,7 @@ export const offers = [
         destName: 'Guadaloupe',
         image: 'assets/img/caribbean2.jpg',
         description: 'A wonderful place for nature lovers',
-        dates: '2 weeks in March 15.03.2020',
+        dates: '2 weeks in April 15.03.2020',
         price: 350,
         book: 'Book This'
     },
@@ -11,7 +11,7 @@ export const offers = [
         destName: 'Aruba',
         image: 'assets/img/aruba.jpg',
         description: 'A wonderful place for nature lovers',
-        dates: '2 weeks in March 10.06.2020',
+        dates: '2 weeks in Feb 10.06.2020',
         price: 550,
         book: 'Book This'        
     },
@@ -19,7 +19,7 @@ export const offers = [
         destName: 'St.Barths',
         image: 'assets/img/bahamasswim.jpg',
         description: 'A wonderful place for nature lovers',
-        dates: '1 week in March 7.06.2020',
+        dates: '1 week in June 7.06.2020',
         price: 200,
         book: 'Book This'
     },
@@ -35,7 +35,7 @@ export const offers = [
         destName: 'Bonaire',
         image: 'assets/img/boniare.jpg',
         description: 'A wonderful place for nature lovers',
-        dates: '2 weeks in March 10.05.2020',
+        dates: '2 weeks in May 10.05.2020',
         price: 600,
         book: 'Book This'
     },

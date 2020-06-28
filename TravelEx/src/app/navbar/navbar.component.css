@@ -1,10 +1,17 @@
 .nav-link {
     font-size: larger;
     color: rgb(13, 39, 77);
+    font-weight: bolder;
 }
 
 .navbar-brand {
     color: turquoise;
-    background: rgb(13, 39, 77);
+    background: rgba(13, 39, 77, 0.459);
     width: 8rem;
+    text-align: center;
+    border-radius: 0px 106px 0px 0px;
+    -moz-border-radius: 0px 106px 0px 0px;
+    -webkit-border-radius: 0px 106px 0px 0px;
+    border: solid 2px #41403e;
+    letter-spacing: 1px;
 }
